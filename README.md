@@ -1,7 +1,8 @@
 # Web-Projekat
-Bazu nazvati secondopinion
-tabele se nalaze u izvezenom sql formatu u folderu sql
-za pristup promeniti korisnicno ime i sifru za pristup bazi u config.php i u reg.php
+
+Name the database secondopinion.
+Tables exist in sql format in a folder named sql.
+For access change username and password in config.php and reg.php
 
 Run it /// ansible-playbook -i inventory/hosts.yml deploy_the_app.yml -vv \\\  \n
 IP of debian: 192:168:56:105  --- web server   \n
